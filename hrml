@@ -1,0 +1,12 @@
+<section class="separador-parcial">
+    <div class="contenedor-info">
+        <h1>Tercer Parcial</h1>
+        <hr class="linea-divisor">
+        <div class="detalles">
+            <p><strong>Materia:</strong> Submódulo 2</p>
+            <p><strong>Docente:</strong> Francisco Javier Mauro Esparza</p>
+            <p><strong>Alumno:</strong> José Antonio H.D</p>
+            <p><strong>Grupo:</strong> 601</p>
+        </div>
+    </div>
+</section>
