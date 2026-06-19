@@ -1,0 +1,7 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { min-height: 100vh; background: linear-gradient(135deg, #020617, #0f172a, #1e3a8a); font-family: 'Segoe UI', Arial, sans-serif; display: flex; justify-content: center; align-items: center; }
+
+.separador { width: 430px; min-height: 760px; background: #f8fafc; border-radius: 24px; overflow: hidden; display: flex; box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45); border: 2px solid #38bdf8; }
+.panel-izquierdo { width: 78px; background: linear-gradient(180deg, #0f172a, #1d4ed8, #38bdf8); position: relative; display: flex; justify-content: center; align-items: center; }
+.circulo { position: absolute; top: 25px; width: 38px; height: 38px; border: 3px solid white; border-radius: 50%; }
+.vertical { color: white; font-weight: bold; letter-spacing: 4px; writing-mode: vertical-rl; transform: rotate(180deg); font-size: 1
