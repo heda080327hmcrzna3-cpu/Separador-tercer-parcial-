@@ -1,12 +1,63 @@
-<section class="separador-parcial">
-    <div class="contenedor-info">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Separador Tercer Parcial</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #e0e5ec;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Este es el contenedor que simula la tarjeta */
+        .tarjeta {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1), 0 6px 10px rgba(0,0,0,0.05);
+            width: 90%;
+            max-width: 350px;
+            text-align: left;
+        }
+
+        h1 { color: #2c3e50; font-size: 1.5rem; margin-bottom: 5px; }
+        h3 { color: #7f8c8d; font-size: 1rem; margin-top: 0; }
+        
+        .info-item { margin: 15px 0; }
+        .label { font-weight: bold; color: #34495e; display: block; font-size: 0.8rem; text-transform: uppercase; }
+        .valor { font-size: 1.1rem; color: #2c3e50; }
+        
+        hr { border: 0; border-top: 1px solid #eee; margin: 20px 0; }
+    </style>
+</head>
+<body>
+
+    <div class="tarjeta">
         <h1>Tercer Parcial</h1>
-        <hr class="linea-divisor">
-        <div class="detalles">
-            <p><strong>Materia:</strong> Submódulo 2</p>
-            <p><strong>Docente:</strong> Francisco Javier Mauro Esparza</p>
-            <p><strong>Alumno:</strong> José Antonio H.D</p>
-            <p><strong>Grupo:</strong> 601</p>
+        <h3>Submódulo 2</h3>
+        <hr>
+        <div class="info-item">
+            <span class="label">Docente</span>
+            <span class="valor">Francisco Javier Mauro Esparza</span>
+        </div>
+        <div class="info-item">
+            <span class="label">Alumno</span>
+            <span class="valor">José Antonio H.D</span>
+        </div>
+        <div class="info-item">
+            <span class="label">Grupo</span>
+            <span class="valor">601</span>
         </div>
     </div>
-</section>
+
+</body>
+</html>
+
+
